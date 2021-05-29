@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-color: rgb(179, 240, 240);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+}
+p{
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
