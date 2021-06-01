@@ -12,6 +12,11 @@
         <div class="container">
             <a href="/shows">Go Back</a>
             <h1>Add a New Show</h1>
+            <ul id="list">
+                {% for message in messages %}
+                    <li>{{message}}</li>
+                {% endfor %}
+            </ul>
             <form action="/shows/new" method="POST">
                 {% csrf_token %}
                 <p>Title</p>
